@@ -1,0 +1,43 @@
+.card-container{
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: aquamarine;
+      padding: 20px 0px ;
+      justify-content: center;
+      align-items: center;
+    
+
+}
+.card{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 8px black;
+    
+    
+}
+img{
+    width: 100%;
+}
+.card-body{
+    padding: 5px;
+    background-color: blueviolet;
+
+}
+.card-title{
+color: rgb(130, 50, 205);
+text-align: center;
+
+}
+.card-desc{
+    text-align: justify ;
+    padding: 5px;
+    color: aliceblue;
+    line-height: 1.5rem;
+    
+}
+.card:hover{
+    box-shadow: 5px 10px 20px black;
+
+}
